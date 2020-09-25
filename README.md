@@ -7,7 +7,7 @@ It was stable to transfer larger files over the network and ultimately was prett
 
 The code works as long as you have a connection port open and a static ip address for the server.
 
-#Client:
+# Client:
 
  Function:
 	-Connect to a server with a host-name and port
@@ -20,7 +20,7 @@ The code works as long as you have a connection port open and a static ip addres
 			(Get a list of the server's dir)
 
 
-#Server:
+# Server:
 
  Function: 
   -Listen for connections
