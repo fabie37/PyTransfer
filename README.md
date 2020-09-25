@@ -7,27 +7,27 @@ It was stable to transfer larger files over the network and ultimately was prett
 
 The code works as long as you have a connection port open and a static ip address for the server.
 
-Client:
+#Client:
 
-# Function:
-#	-Connect to a server with a host-name and port
-#	-Send out a command
-#		~ put
-#			(Send a file to server)
-#		~ get
-#			(Download a file from server)
-#		~ list
-#			(Get a list of the server's dir)
+ Function:
+	-Connect to a server with a host-name and port
+	-Send out a command
+		~ put
+			(Send a file to server)
+		~ get
+			(Download a file from server)
+		~ list
+			(Get a list of the server's dir)
 
 
-Server:
+#Server:
 
-# Function: 
-#	-Listen for connections
-#	-Receive commands
-#		~ put 
-#			(Expect a file to store)
-#		~ get
-#			(Send a file out a file)
-#		~ list
-#			(List the files on the server)
+ Function: 
+  -Listen for connections
+	-Receive commands
+		~ put 
+			(Expect a file to store)
+		~ get
+			(Send a file out a file)
+		~ list
+			(List the files on the server)
