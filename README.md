@@ -9,25 +9,25 @@ The code works as long as you have a connection port open and a static ip addres
 
 # Client:
 
- Function:
-	-Connect to a server with a host-name and port
-	-Send out a command
-		~ put
-			(Send a file to server)
-		~ get
-			(Download a file from server)
-		~ list
-			(Get a list of the server's dir)
+ Function: </br>
+	-Connect to a server with a host-name and port</br>
+	-Send out a command</br>
+		~ put</br>
+			(Send a file to server)</br>
+		~ get</br>
+			(Download a file from server)</br>
+		~ list</br>
+			(Get a list of the server's dir)</br>
 
 
-# Server:
+# Server:</br>
 
- Function: 
-  -Listen for connections
-	-Receive commands
-		~ put 
-			(Expect a file to store)
-		~ get
-			(Send a file out a file)
-		~ list
-			(List the files on the server)
+ Function: </br>
+  -Listen for connections</br>
+	-Receive commands</br>
+		~ put </br>
+			(Expect a file to store)</br>
+		~ get</br>
+			(Send a file out a file)</br>
+		~ list</br>
+			(List the files on the server)</br>
